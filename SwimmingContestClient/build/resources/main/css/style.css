@@ -1,0 +1,257 @@
+.label{
+    -fx-webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 28px;
+    background: transparent;
+    color: white;
+    -fx-border-style: 3 px solid #469cb1;
+    -fx-border-color: white;
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: transparent;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+#FirstNameLabel,#LastNameLabel,#AgeLabel{
+    background: transparent;
+    color: white;
+    -fx-border-style: transparent;
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: transparent;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.text-field{
+    -fx-position: relative;
+    -fx-border-width: 3px;
+    -fx-border-color: white;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+    -fx-font-size: 14px;
+    -fx-padding: 0px;
+    -fx-text-fill: #469cb1;
+    -fx-font-weight: 700;
+    -fx-font-family: "Arial Narrow";
+    -fx-background-color: #b8e8f4;
+}
+#UserLogInLabel{
+    fx-webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 28px;
+    background: transparent;
+    color: white;
+    -fx-alignment: center;
+    -fx-border-width: 2 px solid #469cb1;
+    -fx-border-color: white;
+    -fx-text-fill: white;
+    -fx-font-size: 25px;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: transparent;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+#AnchorPaneLogIn,#AnchorPaneSwimmingContest{
+    -fx-background-color: #d0f8f4;
+    -fx-border-color: white;
+    -fx-border-width: 5px;
+}
+
+
+.button{
+    -fx-webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 28px;
+    background: #b8e8f4;
+    color: white;
+    -fx-border-width: 2 px solid #469cb1;
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#b8e8f4,#469cb1);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+#logOutButton{
+    -fx-webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 28px;
+    background: #b8e8f4;
+    color: white;
+    -fx-border-width: 4 px solid #469cb1;
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#b8e8f4,#0072c6);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+#PasswordConfirmation{
+    border-color: transparent;
+}
+
+ui-titlebar {
+    display: flex;
+    width: 400px;
+    height: 32px;
+    background: #0072c6;
+    user-select: none;
+    cursor: default;
+}
+.ui-titleicon {
+    flex-grow: 1;
+    max-width: 32px;
+    max-height: 32px;
+}
+.ui-titletext {
+    flex-grow: 2;
+    max-height: 32px;
+    width: auto;
+    font: 12px/32px "Segoe UI", Arial, sans-serif;
+    color: #469cb1;
+    text-indent: 10px;
+}
+.ui-titlecontrols {
+    max-width: 144px;
+    max-height: 32px;
+    flex-grow: 1;
+}
+.ui-btn {
+    margin: 0;
+    width: 48px;
+    height:32px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+.ui-btn:hover {
+    background: #469cb1;
+}
+.ui-btn.close:hover {
+    background: #469cb1;
+}
+.ui-btn svg path,
+.ui-btn svg rect,
+.ui-btn svg polygon {
+    fill: #fff;
+}
+.ui-btn svg {
+    width: 10px;
+    height: 10px;
+}
+
+.dialog-pane{
+    -fx-border-color:white;
+    -fx-border-width:2.0px;
+}
+
+/**Costumization of The Bar where the buttons are located**/
+.dialog-pane > .button-bar > .container {
+    -fx-background-color:#b8e8f4;
+}
+
+.dialog-pane > .content.label {
+    -fx-webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 28px;
+    background: transparent;
+    color: white;
+    -fx-border-style: 3 px solid #469cb1;
+    -fx-border-color: white;
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: transparent;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+
+/**Costumization of Buttons**/
+.dialog-pane .button{
+    -fx-webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 28px;
+    background: #b8e8f4;
+    color: white;
+    -fx-border-width: 2 px solid #469cb1;
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#b8e8f4,#469cb1);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.dialog-pane .button:hover{
+    -fx-background-color:white;
+    -fx-text-fill:#165d7c;
+    -fx-font-weight:bold;
+}
+
+.table-view{
+    -fx-background-color: #b8e8f4;
+
+}
+
+.table-view .column-header-background{
+    -fx-background-color: #469cb1;
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.table-view.column.text-field{
+    -fx-background-color: #b8e8f4;
+    -fx-font-family: "Arial Narrow";
+    -fx-text-fill:#165d7c;
+    -fx-font-weight:bold;
+}
+
+.table-view.column.content{
+    -fx-background-color: #b8e8f4;
+    -fx-font-family: "Arial Narrow";
+    -fx-text-fill:#165d7c;
+    -fx-font-weight:bold;
+}
+
+.check-box {
+    -fx-position: relative;
+    -fx-border-width: 1px;
+    -fx-border-color: white;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+    -fx-font-size: 14px;
+    -fx-padding: 0px;
+    -fx-font-weight: 700;
+    -fx-font-family: Candara ;
+    -fx-background-color: #b8e8f4;
+}
+
+.check-box:hover{
+    -fx-text-fill:#469cb1;
+}
+.check-box:hover{
+    -fx-border-color: #469cb1;
+}
+
+.check-box .list-view{
+    -fx-border-width: 1px;
+    -fx-border-color:white ;
+    -fx-background-color: #b8e8f4;
+    -fx-padding: 0px;
+    -fx-font-weight: 700;
+    -fx-border-radius: 20px;
+    -fx-background-radius:20px;
+}
+
+.check-box.list-view .list-ce:filled{
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: 700;
+}
